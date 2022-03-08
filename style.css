@@ -59,3 +59,55 @@ input:focus {
     background-color: #15546e;
 }
 
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4%;
+    padding: 40px 5%;
+}
+
+.card{
+    background-color: transparent;
+    position: relative;
+    width: 25%;
+    margin-bottom: 60px;
+}
+
+.card__top{
+    position: relative;
+
+}
+.card__top-image{
+    width: 100%;
+    padding-bottom: 10px;
+    transition: 0.5s;
+}
+
+.card__top-rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 27px;
+    border-radius: 20px;
+    color: lavender;
+    font-weight: 500;
+    font-size: 14px;
+    position: absolute;
+    left: calc(50% - 21px);
+    top: -13px;
+}
+
+.rating-hight{
+    background-color: green;
+}
+.rating-unknown{
+    background-color: #898CA8
+}
+.rating-low{
+    background-color: orangered;
+}
+.rating-medium{
+    background-color: orange;
+}

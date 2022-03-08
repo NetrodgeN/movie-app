@@ -36,7 +36,7 @@ let genreDictionary = {
 
 function ratingColor(rating) {
     if (rating >= 8) {
-        return "rating-high"
+        return "rating-hight"
     }
     if (rating === 0) {
         return "rating-unknown"
