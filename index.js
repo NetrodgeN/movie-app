@@ -82,7 +82,7 @@ async function getData(adress) {
                 </div> 
                 <div class="card__bottom">
                     <div class="card__bottom-title">${title}</div>
-                    <span class="card__bottom-genres">#{genresCollector(card.genre_ids}</span>
+                    <span class="card__bottom-genres">${genresCollector(card.genre_ids)}</span>
                 </div>
                 <div class="card__description-container">
                     <div class="card__description">
